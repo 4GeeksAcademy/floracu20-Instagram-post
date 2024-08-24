@@ -1,0 +1,69 @@
+body{
+    background: black;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+div.post{
+    background: white;
+    margin: auto;
+    width: 420px;
+    height: 530px;
+}
+
+div.post-header {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.post-header i {
+    font-size: 30px;    
+}
+
+div.post-header p {
+    margin: 0px;    
+}
+
+#izq-header {
+    display: flex;
+    align-items: center;
+}
+
+.header-text {
+    margin-left: 10px;
+}
+
+div.post img{
+    width: 100%;
+}
+
+div.post-icons {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#izq-icons {
+    margin-right: 0px;
+}
+
+#bookmark {
+    margin-right: 10px;
+}
+
+div.post-body {
+    padding: 10px;
+}
+
+div.post-body p {
+    margin: 5px 0px;
+}
+
+#likes {
+    margin-bottom: 12px;
+    margin-top: 0px;
+}
